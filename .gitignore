@@ -1,0 +1,70 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Pyenv
+.python-version
+
+# Packaging
+*.egg
+
+# Installer logs
+pip-log.txt
+
+# Env files / secrets
+.env
+.env.*
+secrets.json
+credentials.json
+
+# Local data files (ignore large or sensitive datasets)
+# Ignore any student feedback CSVs and a data/ folder
+student_feedback*.csv
+data/
+outputs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+logs/
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Other temporary files
+*.tmp
+*.temp
+*.swp
+
+# If you want to track CSV files later, remove/comment the relevant lines above
