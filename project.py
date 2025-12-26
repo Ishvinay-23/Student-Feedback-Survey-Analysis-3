@@ -60,7 +60,7 @@ if candidates:
     csv_path = os.path.join(os.getcwd(), candidates[0])
     print(f"Auto-selected CSV: {csv_path}")
 else:
-    csv_path = r"F:\new project\student_feedback.csv"
+    csv_path = "F:\\student feedback survey analysis\\student_feedback.csv"
 
 df = pd.read_csv(csv_path)
 print("CSV loaded successfully\n")
